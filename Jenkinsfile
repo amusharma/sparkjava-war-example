@@ -13,9 +13,7 @@ pipeline {
         stage ('create package') {
             steps {
                
-                sh '
-                    mvn clean install
-                   '
+                sh 'mvn clean install'
             }
 
 
